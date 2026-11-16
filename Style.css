@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(233, 162, 48);
+}
+div.header  {
+    font-size: 35px;
+    height: 150px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(216, 216, 89)
+}
+div.content    {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    display:flex;
+    align-items: left;
+    flex-direction:column;
+    gap: 10px;
+}
