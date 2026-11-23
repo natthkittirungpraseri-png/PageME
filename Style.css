@@ -3,24 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color:rgb(233, 162, 48);
+    background-color:rgb(218, 232, 240);
 }
+
 div.header  {
-    font-size: 35px;
+    font-size: 30px;
     height: 150px;
     width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(216, 216, 89)
+    background-color:rgb(161, 224, 249);    
+    color: aliceblue;
 }
+
 div.content    {
-    font-size: 20px;
-    margin-left: 70px;
-    margin-top: 20px;
+    padding: 1rem;
+    background-color:rgb(255, 255, 255);
+    color: rgb(115, 148, 148);
+    width: 300px;
+    height: 400px;
+    font-size: 15px;
+    margin: 25px 0;
     display:flex;
-    align-items: left;
-    flex-direction:column;
-    gap: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+    & b {
+        font-size: 20px;
+        color: rgb(127, 195, 255);
+    }
+    & .aboutme {
+        margin-top: 30%;
+    }
 }
